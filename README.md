@@ -6,6 +6,9 @@ Aplicação Web para gerenciamento de tarefas(To-Do list), onde é possível adi
 ### IMPORTANTE
 Neste projeto, explorei diferentes abordagens dentro de um único contexto. Como prática de microservices, utilizei autenticação por Client BasicAuthentication, implementei exceções personalizadas e realizei a validação de DTOs usando anotações customizadas acionadas pelo `@Valid` na camada de Resource. Além disso, desenvolvi diversas outras funcionalidades para demonstrar de forma prática meu conhecimento. Estou aberto a dúvidas e feedbacks a qualquer momento.
 
+### REST
+Na raiz do projeto, há um arquivo chamado `Insomnia.json` que pode ser importado no Insomnia para a execução de testes.
+
 ### Tecnologias
 - Java 17
 - Spring Boot
