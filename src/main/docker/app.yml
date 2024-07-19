@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  api-app:
+    image: api
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/postgres
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    ports:
+      - 8080:8080
+  postgresql:
+    image: postgres:14.5
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+    ports:
+      - 5432:5432
