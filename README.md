@@ -1,7 +1,8 @@
 # desafio-springboot-docker
 
 ### 📋 Sobre o projeto
-Aplicação Web para gerenciamento de tarefas(To-Do list), onde é possível adicionar, atualizar, visualizar e deletar tarefas.
+Neste desafio implementei uma API REST para um sistema simples de
+contas a pagar. O sistema permitie realizar o CRUD de uma conta a pagar, alterar a situação dela quando for efetuado pagamento, obter informações sobre as contas cadastradas no banco de dados, e importar um lote de contas de um arquivo CSV.
 
 ### IMPORTANTE
 Neste projeto, explorei diferentes abordagens dentro de um único contexto. Como prática de microservices, utilizei autenticação por Client BasicAuthentication, implementei exceções personalizadas e realizei a validação de DTOs usando anotações customizadas acionadas pelo `@Valid` na camada de Resource. Além disso, desenvolvi diversas outras funcionalidades para demonstrar de forma prática meu conhecimento. Estou aberto a dúvidas e feedbacks a qualquer momento.
